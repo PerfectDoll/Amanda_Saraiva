@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<body>
+    
+</body>
+      <form> 
+        Nome: <input type="text" name="name"><br> 
+        <br>
+        Senha: <input type="password" name="senha"
+        maxlength="8"><br>
+        <br>
+        Pesquisar: <input type="search" name="pesquisa" >
+        <br><br>
+
+        Escolha o horário: <input type="time" name="urs_horario">
+        <br><br
+        Link do seu WebSite: <input type="url" name="webpage"> 
+        <br>
+        Selecione uma semana: <input type="week"name="semana">
+        <br> <br> 
+        <textarea>Area de texto com umtexto inicial dentro</textarea><br> 
+       <!-- <input type="text" name="" id=""> --> 
+      <input type="reset"><br> 
+      <br>
+        Defina seu nível de satisfação: <br> pouco satisfeito 
+        <input type="range"name= "satisfacao" min="0" max="10"> 
+        <br>
+        <p>Qual a sua idade ?</p>
+        <input type="radio" name="idade" value="18_22">18 a 22 <br> 
+        <input type="radio" name="idade" value="23_30">23 a 30 <br> 
+        <input type="radio" name="idade" value="mais31">acima de 31<br> 
+        <!--Rádio:Apenas uma opção-->
+        <br>
+        <input type="checkbox" name="veiculo1" value="bicicleta"> Eu tenho uma bicicleta <br> 
+        <input type="checkbox" name="veiculo2" value="carro"> Eu tenho um carro <br> 
+        <input type="checkbox" name="veiculo3" value="moto"> Eu tenho uma moto <br> 
+        <!--Checkbox:Várias opções-->
+        <br> 
+        <input type="submit" value="Enviar Formulário"> 
+        
+      </form>
+
+<!--CADRASTRO: Modelo-->  
+
+<form> 
+  <fieldset><legend>Dados Pessoais</legend>
+    Nome:<input type="text" name="nome"><br> 
+    Sobrenome: <input type="text" name="sobrenome"><br> 
+    Idade:<input type="number" name="idade" min="0" max="120"><br>
+    Data de nacimento: <input type="date" name="D-nascimento"><br> 
+    </fieldset>
+
+<fieldset> 
+  <legend> Dados Profissionais:</legend> 
+  Escolaridade:<br>
+  <input type="radio" name="escolaridade" value="Ensino Fundamrntal 1 Incompleto"> Ensino Fundamental Incompleto <br> 
+  <input type="radio" name="escolaridade" value="Ensino Fundamrntal 1 Incompleto"> Ensino Fundamental Completo <br> 
+  <input type="radio" name="escolaridade" value="Ensino Fundamrntal 1 Incompleto"> Ensino Médio Incompleto <br> 
+  <input type="radio" name="escolaridade" value="Ensino Fundamrntal 1 Incompleto"> Ensino Médio Completo <br> 
+  <br>
+  Última experiência: <input type="text" ou o name: id="experiencia"><br> 
+  Pretensão salarial: <input type="number" ou o name id="pretensao" step="0.10" min="0.00" placeholder="0.00" required>
+</fieldset>
+<input type="reset" value="Limpar">
+<input type="submit"value="Salvar"> 
+
+</form> 
+</body>
+</html> 
+
+<!--<fieldset> Cria um conjunto de dados com uma BORDA 
+</legend> Adiciona uma legenda/ um texto que categoriza o fieldset
+<form> Informa ao navegador que iniciará um formulário
+<input> Entrada de dados enviados pelo usúario
+<type="radio"> Formato circular, e só permite escolher uma opção do conjunto precisa que todos tenham o mesmo nome.Quando é um conjunto só pode marcar um, olhar para o name
+<value> Define o valor inicial do campo de entrada. Ele especifica o valor que será exibido no campo quando a página carregar ou quando o campo for inicializado por meio de script.Por exemplo, se você tem um `<input>` do tipo texto (`<input type="text">`), o atributo `value` pode ser usado para definir o texto inicial que será exibido no campo de entrada. Veja um exemplo simples:```html<inputtype="text" value="Digite seu nome aqui"> Neste caso, quando a página for carregada, o campo de entrada de texto exibirá o texto "Digite seu nome aqui". O usuário pode então modificar este texto conforme necessário.Além disso, o atributo `value` pode ser modificado dinamicamente por JavaScript para alterar o valor exibido no campo de entrada durante a interação com a página. É importante notar que o atributo `value` é diferente do conteúdo do elemento `<input>`. O valor do atributo `value` determina o estado inicial do campo de entrada, enquanto o valor que o usuário insere ou modifica é refletido no estado atual do campo, acessível via JavaScript pelo atributo `value` ou através da propriedade `input.value`. 
+<placeholder> Texto de fundo do campo do input
+<required> Torna o campo obrigatório -->
+  

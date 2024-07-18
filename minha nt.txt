@@ -1,0 +1,18 @@
+Se a janela estiver maximizada, posicione a setinha do
+mouse sobre a Barra de Título da janela;
+2) Dê um clique com o botão esquerdo do mouse,
+mantenha-o pressionado e arraste sua janela para
+baixo, soltando-o em seguida.
+3) Com o mouse posicionado na Barra de Título da janela,
+arraste sua janela e solte onde você quiser.
+4) Experimente colocar sua janela no lado esquerdo da
+tela. Arraste para esquerda até a janela se moldar à
+metade da tela.
+5) Experimente agora colocar a mesma janela do lado
+direito da tela.ttt
+1) Posicione o ponteiro do mouse sobre a borda direita
+da janela até que ele se transforme numa seta de duas
+pontas:
+2) Agora clique com o botão esquerdo do mouse,
+mantendo-o pressionado, e arraste até obter um novo
+tamanho. E então, solte o botão.

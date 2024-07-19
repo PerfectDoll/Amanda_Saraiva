@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documento</title>
     <style>
-      input, select{
+
+      /*input, select{
           width: 100%;
           height: 30px;
           border-radius: 4px;
@@ -13,9 +14,10 @@
           border: 1px solid;
           border-color: blue;
           box-shadow: 1px 1px 2px #333;
-      }
+      }*/
+
       table{
-          width: 50%;
+          width: 100%;
       }
       fieldset{
           margin-bottom: 10px;
@@ -44,6 +46,16 @@
         margin-left: 5% ;
         margin-right: 5%;
       }
+      input[type=submit]{
+        background-color: rgb(143, 133, 133);
+        color: rgb(255, 255, 255)
+      }
+      td.escolaridade{
+        text-align: left;
+      }
+      .escolaridade{ /*: O ponto referencia o CSS*/ 
+        height: 90px;
+        }
 
   </style>
 </head>
@@ -59,7 +71,7 @@
         <br><br>
 
         Escolha o horário: <input type="time" name="urs_horario">
-        <br><br
+        <br><br>
         Link do seu WebSite: <input type="url" name="webpage"> 
         <br>
         Selecione uma semana: <input type="week"name="semana">
@@ -98,17 +110,22 @@
 
 <fieldset> 
   <legend> Dados Profissionais:</legend> 
-  Escolaridade:<br>
-  <input type="radio" name="escolaridade" value="Ensino Fundamrntal 1 Incompleto"> Ensino Fundamental Incompleto <br> 
-  <input type="radio" name="escolaridade" value="Ensino Fundamrntal 1 Incompleto"> Ensino Fundamental Completo <br> 
-  <input type="radio" name="escolaridade" value="Ensino Fundamrntal 1 Incompleto"> Ensino Médio Incompleto <br> 
-  <input type="radio" name="escolaridade" value="Ensino Fundamrntal 1 Incompleto"> Ensino Médio Completo <br> 
-  <br>
+  <table>
+  <td>Escolaridade:<br>
+  <td class="escolaridade">
+  <input type="radio" name="escolaridade" class="escolaridade" value="Ensino Fundamental Incompleto"> Ensino Fundamental Incompleto <br>
+  <input type="radio" name="escolaridade" class="escolaridade" value="Ensino Fundamental Incompleto"> Ensino Fundamental Completo <br>
+  <input type="radio" name="escolaridade" class="escolaridade" value="Ensino Fundamental Incompleto"> Ensino Médio Incompleto <br>
+  <input type="radio" name="escolaridade" class="escolaridade" value="Ensino Fundamental Incompleto"> Ensino Médio Completo 
+  </td>
+  </table>
+  <br> 
   Última experiência: <input type="text" ou o name: id="experiencia"><br> 
   Pretensão salarial: <input type="number" ou o name id="pretensao" step="0.10" min="0.00" placeholder="0.00" required>
 </fieldset>
 <input type="reset" value="Limpar">
-<input type="submit"value="Salvar"> 
+<input type="submit"value="Salvar">
+
 
 </form> 
 </div>
@@ -124,3 +141,40 @@
 <placeholder> Texto de fundo do campo do input
 <required> Torna o campo obrigatório -->
   
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    
+  </body>
+  </html>
+
+
+  <!--ATIVIDADE : ERROS
+  <html>
+  <head><meta http-equiv=Content-Type content="text/html;charset=UT-8"></head> : Faltando o F 
+  <body> : Não fechou
+  <tabela> : Table
+  <thead>
+  <tr><th><p>Quadro de medalhas - PAN 2019</p> </th><tr> : Não precisa de p, mas não está errado 
+  <td>País<td> : Não fechou 
+  <td>Ouro</td> 
+  <td>Prata</td>
+  <td>Bronze</tr> : Fecha com tR. Falta fechar o td 
+  </thead>
+  <tr>
+  <td align="center"> <img width=100 height=100 src="USA"> </td> : Faltando o width. Falta a extensão do arquivo. Faltou o png 
+  <td >120 </td>
+  <td >88</td>
+  <td >85</td>
+  </tr>
+</htm> : Faltou o L 
+
+
+
+
+              

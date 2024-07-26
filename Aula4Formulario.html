@@ -108,22 +108,24 @@
     Data de nacimento: <input type="date" name="D-nascimento"><br> 
     </fieldset>
 
-<fieldset> 
-  <legend> Dados Profissionais:</legend> 
-  <table>
-  <td>Escolaridade:<br>
-  <td class="escolaridade">
-  <input type="radio" name="escolaridade" class="escolaridade" value="Ensino Fundamental Incompleto"> Ensino Fundamental Incompleto <br>
-  <input type="radio" name="escolaridade" class="escolaridade" value="Ensino Fundamental Incompleto"> Ensino Fundamental Completo <br>
-  <input type="radio" name="escolaridade" class="escolaridade" value="Ensino Fundamental Incompleto"> Ensino Médio Incompleto <br>
-  <input type="radio" name="escolaridade" class="escolaridade" value="Ensino Fundamental Incompleto"> Ensino Médio Completo 
-  </td>
-  </table>
-  <br> 
-  Última experiência: <input type="text" ou o name: id="experiencia"><br> 
-  Pretensão salarial: <input type="number" ou o name id="pretensao" step="0.10" min="0.00" placeholder="0.00" required>
-</fieldset>
-<input type="reset" value="Limpar">
+    <fieldset>
+      <legend>Dados Profissionais:</legend>
+      <table>
+        <tr>
+          <td>Escolaridade:</td>
+          <td class="escolaridade">
+            <input type="radio" name="escolaridade" value="Ensino Fundamental Incompleto"> Ensino Fundamental Incompleto <br>
+            <input type="radio" name="escolaridade" value="Ensino Fundamental Completo"> Ensino Fundamental Completo <br>
+            <input type="radio" name="escolaridade" value="Ensino Médio Incompleto"> Ensino Médio Incompleto <br>
+            <input type="radio" name="escolaridade" value="Ensino Médio Completo"> Ensino Médio Completo
+          </td>
+        </tr>
+      </table>
+      <br>
+      Última experiência: <input type="text" name="experiencia" id="experiencia"><br>
+      Pretensão salarial: <input type="number" name="pretensao" id="pretensao" step="0.10" min="0.00" placeholder="0.00" required>
+    </fieldset>
+    <input type="reset" value="Limpar">
 <input type="submit"value="Salvar">
 
 

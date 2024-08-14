@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.getElementById('media').onsubmit = function (){
+            var nota1 = document.getElementById('n1').value;
+            var nota2 = n2.value;
+            var media = (parseFloat(nota1) + parseFloat (nota2))/2;
+            if(media >= 7){
+                alert(media);
+            }else{
+                
+            }
+        }
+    <form id="media">
+            Nota 1: <input type="number" id="n1">
+            Nota 2: <input type="number" id="n2">
+            <br>
+            <input type="submit" value="Calcular">
+        var media = 5;
+        if(media >=7){
+            alert ("Não fez mais que a sua obrigação!");
+        }else{
+            alert("Vai estudar mais!")
+        }
+    </script>
+</body>
+</html>

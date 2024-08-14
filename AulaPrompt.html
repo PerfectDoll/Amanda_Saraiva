@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt</title>
+</head>
+<body>
+    <div class="card container" id = "Juros"> R$ 0,00
+    </div>
+    <script>
+        var c = prompt("Digite o valor a ser investido:");
+        var i = prompt("Digite a taxa de juros:");
+        var t = prompt("Digite o tempo de investimento");
+
+        var juros = parseFloat(c) * (parseFloat(i)/100) * parseFloat(t);
+
+        document.getElementById("Juros").innerHTML = "R$" + juros;
+        
+    </script>
+</body>
+</html>
+
+Float : Número quebrado 
+Calculo : Vezes e dividido 
+Do geral para o especifico
